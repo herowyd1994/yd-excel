@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "removeComments": true,
+        "declaration": true,
+        "declarationDir": "types"
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.d.ts"
+    ],
+    "include": [
+        "src/**/*"
+    ]
+}

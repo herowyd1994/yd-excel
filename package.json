@@ -1,0 +1,28 @@
+{
+    "name": "@yd/excel",
+    "version": "1.0.0",
+    "description": "## antd-pro excel工具库",
+    "main": "dist/index.js",
+    "types": "types/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:herowyd1994/yd-excel.git"
+    },
+    "author": "~Wyd丶",
+    "license": "ISC",
+    "dependencies": {
+        "@yd/antd-pro": "https://github.com/herowyd1994/yd-antd-pro.git",
+        "@yd/r-hooks": "https://github.com/herowyd1994/yd-r-hooks.git",
+        "@yd/utils": "https://github.com/herowyd1994/yd-utils.git"
+    },
+    "devDependencies": {
+        "@ant-design/pro-table": "^3.18.2",
+        "antd": "^5.22.2",
+        "prettier": "^3.3.3",
+        "typescript": "^5.6.3",
+        "xlsx": "^0.18.5"
+    }
+}
